@@ -1,8 +1,0 @@
-{"level":"info","message":"App is running on port: 3000"}
-{"app":"express","log":"winston","level":"info","message":"Hello log with metas"}
-{"level":"info","message":"App is running on port: 3000"}
-{"appFramework":"express","log":"winston","timeStamp":"function(str, date, utc) {\n  if (typeof str !== 'string') {\n    date = str;\n    str = 'YYYY-MM-DD';\n  }\n\n  if (!date) date = new Date();\n  return str.replace(dateRegex, function(match, key, rest) {\n    var args = timespan[key];\n    var name = args[0];\n    var chars = args[1];\n    if (utc === true) name = 'getUTC' + name.slice(3);\n    var val = '00' + String(date[name]() + (args[2] || 0));\n    return val.slice(-chars) + (rest || '');\n  });\n}","level":"info","message":"Hello log with metas"}
-{"level":"info","message":"App is running on port: 3000"}
-{"appFramework":"express","log":"winston","timeStamp":"2021-03-29","level":"info","message":"Hello log with metas"}
-{"level":"info","message":"App is running on port: 3000"}
-{"appFramework":"express","log":"winston","timeStamp":"2021/03/29:11:33:02","level":"info","message":"Hello log with metas"}
